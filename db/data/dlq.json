@@ -1,0 +1,38 @@
+{
+  "dlq": [
+    {
+      "id": "bad1",
+      "command": "abcxyz",
+      "attempts": 4,
+      "last_error": "Command failed: abcxyz\n/bin/sh: abcxyz: command not found\n",
+      "failed_at": 1763197069851
+    },
+    {
+      "id": "bad1",
+      "command": "abcxyz",
+      "attempts": 4,
+      "last_error": "Command failed: abcxyz\n/bin/sh: abcxyz: command not found\n",
+      "failed_at": 1763197194902
+    },
+    {
+      "id": "bad1",
+      "command": "abcxyz",
+      "attempts": 4,
+      "last_error": "Command failed: abcxyz\n/bin/sh: abcxyz: command not found\n",
+      "failed_at": 1763197363411
+    },
+    {
+      "command": "echo later",
+      "attempts": 6,
+      "last_error": "The \"command\" argument must be of type string. Received undefined",
+      "failed_at": 1763199155866
+    },
+    {
+      "id": "smk-1763203071248-bad1",
+      "command": "definitelynotacommand_xyz",
+      "attempts": 3,
+      "last_error": "Command failed: definitelynotacommand_xyz\n/bin/sh: definitelynotacommand_xyz: command not found\n",
+      "failed_at": 1763203073374
+    }
+  ]
+}

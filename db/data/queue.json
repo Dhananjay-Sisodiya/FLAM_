@@ -1,0 +1,54 @@
+{
+  "jobs": [
+    {
+      "command": "echo later",
+      "id": "future1",
+      "run_at": 9999999999999,
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": "5",
+      "created_at": 1763202605587,
+      "updated_at": 1763202605587,
+      "last_error": null
+    },
+    {
+      "id": "smk-1763203071248-ok1",
+      "command": "echo ok1",
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 2,
+      "run_at": 1763203071252,
+      "created_at": 1763203071252,
+      "updated_at": 1763203071308,
+      "last_error": null,
+      "worker_id": "worker-35517",
+      "processing_started_at": 1763203071301
+    },
+    {
+      "id": "smk-1763203071248-ok2",
+      "command": "echo ok2",
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 2,
+      "run_at": 1763203071253,
+      "created_at": 1763203071253,
+      "updated_at": 1763203071308,
+      "last_error": null,
+      "worker_id": "worker-35516",
+      "processing_started_at": 1763203071301
+    },
+    {
+      "id": "smk-1763203071248-delay",
+      "command": "echo delayed",
+      "run_at": 1763203072753,
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 2,
+      "created_at": 1763203071253,
+      "updated_at": 1763203072950,
+      "last_error": null,
+      "worker_id": "worker-35516",
+      "processing_started_at": 1763203072939
+    }
+  ]
+}
