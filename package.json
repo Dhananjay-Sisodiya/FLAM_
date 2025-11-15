@@ -1,0 +1,37 @@
+{
+  "name": "flam-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "queuectl": "./cli/bin/queuectl"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Preksha0820/FLAM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Preksha0820/FLAM/issues"
+  },
+  "homepage": "https://github.com/Preksha0820/FLAM#readme",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3",
+    "figlet": "^1.9.3",
+    "fs-ext": "^2.1.1",
+    "ora": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
